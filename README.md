@@ -11,8 +11,11 @@ ALSO I am specifically using the hand detection tracking module again as a proto
 My prototype for the time being would be more so for a singular interactive art piece but if someone wanted to do a walk through installation or soundscape, changing the detection module would be very helpful - tracks body instead of single points of a hand
 
 # How it works
-Hand tracking - MediaPipe's Hand Landmarker finds 21 points on your hand in each webcam frame. The project uses landmark 8, the index fingertip.
 
-Position to sound: The fingertip's left-to-right position (0 to 1) sets the volume of each sound. Rain is loudest on the left, wind chimes in the middle and forest birds on the right, so moving your hand crossfades between them.
-Fading: A master volume rises while a hand is visible and falls when it leaves, so the space goes quiet when nobody is interacting.
-Display: The webcam image is mirrored, and the hand landmarks can be drawn on screen. SHOW_HAND = False hides them while the tracking and sound keep working.
+- Hand tracking - MediaPipe's Hand Landmarker finds 21 points on your hand in each webcam frame. The project uses landmark 8, the index fingertip.
+- Position to sound - The fingertip's left to right position (0 to 1) sets the volume of each sound. Rain is loudest on the left, wind chimes in the middle and forest birds on the right, so moving your hand crossfades between them.
+- Fading - A master volume rises while a hand is visible and falls when it leaves, so the space goes quiet when nobody is interacting.
+- Display - The webcam image is mirrored, and the hand landmarks can be drawn on screen. There is a toggle SHOW_HAND = variable which hides the drawn connections while the tracking while the sound keeps working
+
+ <img width="713" height="263" alt="Screenshot 2026-11-03 at 9 51 14 pm" src="https://github.com/user-attachments/assets/a72ec5fd-1309-4c15-a7f6-bb6133b2e020" />
+ 
