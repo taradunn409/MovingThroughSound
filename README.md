@@ -26,3 +26,8 @@ My prototype for the time being would be more so for a singular interactive art 
 (I would recommend downloading Anaconda as well, because the Jupyter notebook that launches through Anaconda uses the correct version of python. It was also the only time my code would run for me as Jupyter websites weren't working)
 - A webcam/Laptop
 - MediaPipe, OpenCV and pygame-ce
+
+# Other Coding Requirements
+
+- This is the link for the media pipe GitHub, I couldn't upload these files myself
+- https://github.com/google-ai-edge/mediapipe
