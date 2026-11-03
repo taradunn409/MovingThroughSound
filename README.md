@@ -50,5 +50,16 @@ You need a computer with a webcam and speakers. I developed this on a Mac using 
 - Hold your hand up and move it across the screen.
 - Press q in the video window to quit
 
+# Project Status
+Project is complete but improvements can definitely be made
 
+# Room for Improvement
+
+Room for improvement:
+
+- The blend between sounds and the ability for them to start is still very glitchy which can be changed by altering some of the volume parameters
+
+- Overall just the flow and consistency of the final product
+  
+- As mentioned before my prototype can be adapted for walk through art installation or soundscapes, changing the detection module to Holistic would be very helpful - tracks body instead of single points of a hand
 
