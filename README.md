@@ -19,3 +19,9 @@ My prototype for the time being would be more so for a singular interactive art 
 
  <img width="713" height="263" alt="Screenshot 2026-11-03 at 9 51 14 pm" src="https://github.com/user-attachments/assets/a72ec5fd-1309-4c15-a7f6-bb6133b2e020" />
  
+# Requirements
+
+Python 3 and Jupyter 
+(I would recommend downloading Anaconda as well, because the Jupyter notebook that launches through Anaconda uses the correct version of python. It was also the only time my code would run for me as Jupyter websites weren't working)
+A webcam/Laptop
+MediaPipe, OpenCV and pygame-ce
