@@ -31,3 +31,24 @@ My prototype for the time being would be more so for a singular interactive art 
 
 - This is the link for the media pipe GitHub, I couldn't upload these files myself
 - https://github.com/google-ai-edge/mediapipe
+
+# How to use
+
+You need a computer with a webcam and speakers. I developed this on a Mac using Python 3.14.
+
+1. Set up Python and Jupyter
+- Install Anaconda (it includes Python and Jupyter). It is a good idea to keep this project in its own environment, so its packages do not clash with anything else
+  
+2. Get the files
+- Download this repository and copy my code into your Jupyter notebook
+
+3. Run it
+- Open the notebook in Jupyter Lab
+- Run the first cell, which installs, imports and sets up the hand detector and sounds.
+- Then run the main webcam cell.
+- Allow camera access if your computer asks.
+- Hold your hand up and move it across the screen.
+- Press q in the video window to quit
+
+
+
