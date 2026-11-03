@@ -21,7 +21,8 @@ My prototype for the time being would be more so for a singular interactive art 
  
 # Requirements
 
-Python 3 and Jupyter 
+- Python 3 and Jupyter 
+
 (I would recommend downloading Anaconda as well, because the Jupyter notebook that launches through Anaconda uses the correct version of python. It was also the only time my code would run for me as Jupyter websites weren't working)
-A webcam/Laptop
-MediaPipe, OpenCV and pygame-ce
+- A webcam/Laptop
+- MediaPipe, OpenCV and pygame-ce
